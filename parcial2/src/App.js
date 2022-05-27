@@ -7,7 +7,7 @@ import { IntlProvider } from 'react-intl';
 
 
 import Space from './components/space';
-
+import Room from './components/rooms';
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
           <h1>Spaces</h1>
           <div className="row"> 
             <Space></Space>
+            <Room></Room>
           </div>
         </div>
       </div>
